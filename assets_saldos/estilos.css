@@ -13,24 +13,26 @@ body {
   font-style: normal;
 }
 
-.botonEmergencia {
+#botonEmergencia {
   display: flex;
+  color: white;
   flex-direction: row;
-  color:white;
   padding: 12px;
   gap: 16px;
   align-items: center;
   width: 223.42px;
   height: 44px;
-  border: 8px solid #00ABEB;
+  background-color: #00ABEB;
+  border-radius: 8px ;
 }
+
 
 main {
 width: 20vw;
 background-color: green;
 
 }
-.botonMisOfertas{
+#botonMisOfertas{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,7 +42,6 @@ background-color: green;
     width: 171px;
     height: 44px;
     background: #00ABEB; 
-    color: #000000;
 
 }
 
@@ -59,7 +60,6 @@ background-color: green;
   top: 118px;
 
   background: #000000;
-  color: white;
 
 }
 
