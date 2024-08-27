@@ -165,11 +165,10 @@ li a:hover {
 
 table {
   border: 1px solid;
-  margin: auto 0;
 }
 
 .bordered {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
 }
 
 th,
@@ -187,8 +186,56 @@ td {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  font-size: 18px;
 }
 
 h5{
   font-weight: 600;
+}
+
+.main {
+  display: flex;
+}
+
+.product-container {
+  border-style: solid;
+  border-width: 1px;
+  width: 25vw;
+  padding: 15px;
+  text-align: left;
+  margin: 25px;
+}
+
+.product-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.products-dashboard{
+  display: flex;
+  margin: 0 auto;
+}
+
+.card-number {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.button-1 {
+  border-radius: 25px;
+  background-color: #000000;
+  color: white;
+  width: 150px;
+  height:30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  margin-top:10px;
 }
