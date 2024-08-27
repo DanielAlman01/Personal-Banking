@@ -15,4 +15,4 @@ document.getElementById('form-log').addEventListener('submit', function(event) {
     errorMessage.textContent = 'Usuario o contraseña incorrectos';
     errorMessage.style.display = 'block';
   }
-});
+})
