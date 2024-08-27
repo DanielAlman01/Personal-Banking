@@ -239,3 +239,17 @@ h5{
   font-size: 14px;
   margin-top:10px;
 }
+
+.cerrar:hover{
+  color: white;
+  background-color:#cdcdcd;
+  padding: 11px;
+  border: #000000;
+}
+#botonNoEmergencia:hover{
+  color: white;
+  background-color:#cdcdcd;
+  padding: 11px;
+  border: #000000;
+ 
+}
