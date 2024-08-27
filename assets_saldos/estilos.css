@@ -1,9 +1,4 @@
-:root{
-    
-  --colortxtbtn: #fffaff;
-  --navbarbg:#000000;
-  --contentbg: #E5E5E5;
-}
+
   
 body {
   font-family: "Poppins", sans-serif;
@@ -18,23 +13,26 @@ body {
   font-style: normal;
 }
 
-.botonEmergencia {
+#botonEmergencia {
   display: flex;
+  color: white;
   flex-direction: row;
-  color:white;
   padding: 12px;
   gap: 16px;
   align-items: center;
   width: 223.42px;
   height: 44px;
-  border: 8px solid #00ABEB;
+  background-color: #00ABEB;
+  border-radius: 8px ;
 }
+
 
 main {
-width: 50%;
-}
+width: 20vw;
+background-color: green;
 
-.botonMisOfertas{
+}
+#botonMisOfertas{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,7 +42,6 @@ width: 50%;
     width: 171px;
     height: 44px;
     background: #00ABEB; 
-    color: #000000;
 
 }
 
@@ -63,7 +60,6 @@ width: 50%;
   top: 118px;
 
   background: #000000;
-  color: white;
 
 }
 
@@ -73,10 +69,19 @@ width: 50%;
   width: 100%;
   margin: auto 0;
   }
-  
+  /*Estilos para la navbar*/
+
+:root{
+ 
+  --colortxtbtn: #fffaff;
+  --navbarbg:#000000;
+  --contentbg: #E5E5E5;
+}
+
+
 li {
   float: left;
-  
+ 
 }
 
 ul {
@@ -87,11 +92,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: var(--navbarbg);
-  
+ 
 }
 
 li a {  
-  
+ 
   color: var(--colortxtbtn);
   display: block;
   text-align: center;
