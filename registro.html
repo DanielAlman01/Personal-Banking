@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href=" https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="./css/registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href=" https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
     <title>Registro</title>
 </head>
-<body>
+<body class="wrapper">
+    <section class="sidebar">
+        <div class="sidebar-princ">
 
-    
-    <div class="box">
-        
-    <div><p style="color: whitesmoke">Te damos la bienvenida al portal Personal Banking</p></div>
-    </div>
-    <div class="box2">
-        
-    <div><p style="color: whitesmoke">¿Ya tienes una cuenta?<a href=""> Iniciar sesion</a></p></div>
-    </div>
+            <img src="./Imagenes/LogoConsulTec.png" alt="Consultec">
+            <h2>
+                Te damos la bienvenida al portal Personal Banking
+            </h2>
+
 
   
 
+        <div class="sidebar-foot">
+
+            <p>¿Ya tienes una cuenta?<a href="#" id="login">Iniciar sesión</a></p>
+
+        </div>
+    </section>
+
+    <section class="content">
+        <div>
+            <h1><span>Crear</span> Cuenta</h1>
+            <form action="" class="formulario">
+                <input type="text" name="nombres" id="nombres" placeholder="Ingresa tus nombres" class="inputRegistro">
+                <input type="text" name="apellidos" id="apellidos" placeholder="Ingresa tus apellidos" class="inputRegistro">
+                <input type="text" name="identificacion" id="dni" placeholder="Ingresa tu DNI" class="inputRegistro">
+                <input type="date" name="fechaNacimiento" id="fechaNac" placeholder="Ingresa tu DNI" class="inputRegistro">
+                <input type="password" name="contraseña" id="contraseña" placeholder="Ingresa tu nueva contraseña" class="inputRegistro">
+                <input type="password" name="reptcontraseña" id="reptcontraseña" placeholder="Repite la contraseña que ingresaste" class="inputRegistro">
+                <input type="submit" value="Crear Cuenta" class="btnCrearCuenta">
+            </form>
+        </div>
+        
+    </section>
 
 </body>
 </html>
