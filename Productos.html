@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
         rel="stylesheet">
     <script type="text/javascript" src="./js/closeSesion.js" defer></script>
 </head>
-
+ 
 <body>
     <section class="diseno-header">
         <div>
@@ -21,25 +21,28 @@
         </div>
         <div>
             <nav class="navbar">
-                <li><a> Mi perfil</a></li>
-                <li><a> Contactanos </a></li>
+                <li><select  id="botonNoEmergencia"><a > Mi Perfil</a>
+                    <option value="0">Mi Perfil</option></select> </li>
+                    <li><select id="botonNoEmergencia"><a > Contactanos</a>
+                        <option value="0">Contactanos</option></select> </li>  
                 <li><select id="botonEmergencia"><a > Emergencias</a>
                     <option value="0"> <img src="Imagenes/Emergency.svg" alt="Logo de Consultec">Emergencias </option></select> </li>
-                <button class="cerrar" onclick="cerrarSesion()">Cerrar Sesión</button>
+                <button class="cerrar" onclick="cerrarSesion()">Cerrar Sesión</button> 
+        
             </nav>
         </div>
     </section>
     <section class="nombres">
         <div>
-            <h3>Hola, Nelson Alejandro</h3>
+            <h5>Hola, <b>Nelson Alejandro</b></h5>
         </div>
         <div>
-            <h3>Ejecutivo: José Francisco Nieves - jnieves@consultec-ti.com</h3>      
+            <h5>Ejecutivo: José Francisco Nieves - jnieves@consultec-ti.com</h5>      
         </div>
     </section>
     <section>
         <nav id="selectNegro" class="navbar">
-            <li><img src="Imagenes/Icon_house-2.svg" alt="Productos">
+            <li><img style="margin-left: 10px;" src="Imagenes/Icon_house-2.svg" alt="Productos">
             </li>
             <li><select id="textoBarra" ><a > Productos</a>
                     <option value="0">Productos</option></select> </li>
@@ -51,10 +54,9 @@
                     <option value="0">Inversiones</option></select> </li>
                     <li><select id="botonMisOfertas" ><a > Productos</a>
                     <option value="0">Mis ofertas</option></select> </li>
-    
+   
         </nav>
     </section>
-    
     <main class="main">
         <section class="products-dashboard">
             <section class="product-container">
@@ -70,9 +72,10 @@
             </section>
         </section>
     </main>
-    
     </section>
     </section>
 </body>
-
+ 
 </html>
+    
+    

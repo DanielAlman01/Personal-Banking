@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="/css/login.css">
     <title>Consul tec</title>
 </head>
 
@@ -12,7 +12,7 @@
     <section class="cont-prin">
         <div class="cont-prin-log colo-celeste flex-center">
             <div class="cont-iz-ar">
-                <img src="./Imagenes/LogoConsulTec.png" alt="" class="img-logo">
+                <img src="/Imagenes/LogoConsulTec.png" alt="ConsulTec">
                 <h2>Te damos la bienvenida al portal Personal Banking</h2>
                 <p>Eres nuevo en el banco <br><a href="#">Crea tu clave</a></p>
             </div>
@@ -22,20 +22,23 @@
         </div>
         <div class="cont-prin-log color-wh">
             <div class="cont-flex">
-                <form action="" class="form-log" id="loginForm">
+                <form action="" class="form-log" id="form-log">
                     <h1><span class="color-celeste">Inicio de</span> sesión</h1>
                     <div class="form-log-inp">
-                        <input type="text" placeholder="Ingresa tu correo electrónico" class="input-from-log" id="emailLogin">
+                        <input type="email" placeholder="Ingresa tu correo electrónico" class="input-from-log" id="emailLogin">
                         <input type="password" placeholder="Ingresa tu clave de internet" class="input-from-log" id="passwordLogin">
-                        <p class="p-black">¿Tienes problemas con tu cuenta? <a href="#" class="link-celeste">Recuperar contraseña</a></p>
+                        <p class="p-black">¿Tienes problemas con tu cuenta? <a href="#" class="link-celeste">Recuperar
+                                contraseña</a>
+                        </p>
                     </div>
                     <input type="submit" value="Iniciar sesión" class="btn-negro">
+                    <p id="error-message" class="error-message"></p>  <!-- Ensure the ID is 'error-message' -->
                 </form>
             </div>
 
         </div>
     </section>
-    <script src="./js/login.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
