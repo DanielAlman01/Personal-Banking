@@ -20,25 +20,27 @@
         </div>
         <div>
             <nav class="navbar">
-                <li><a> Mi perfil</a></li>
-                <li><a> Contactanos </a></li>
+                <li><select  id="botonNoEmergencia"><a > Mi Perfil</a>
+                    <option value="0">Mi Perfil</option></select> </li>
+                    <li><select id="botonNoEmergencia"><a > Contactanos</a>
+                        <option value="0">Contactanos</option></select> </li>   
                 <li><select id="botonEmergencia"><a > Emergencias</a>
-                    <option value="0">Emergencias</option></select> </li>
-                <li><a> Cerrar Sesión</a></li>
+                    <option value="0"> <img src="Imagenes/Emergency.svg" alt="Logo de Consultec">Emergencias </option></select> </li>
+                <button class="cerrar">Cerrar Sesión</button>
             </nav>
         </div>
     </section>
     <section class="nombres">
         <div>
-            <h3>Hola, Nelson Alejandro</h3>
+            <h5>Hola, <b>Nelson Alejandro</b></h5>
         </div>
         <div>
-            <h3>Ejecutivo: José Francisco Nieves - jnieves@consultec-ti.com</h3>      
+            <h5>Ejecutivo: José Francisco Nieves - jnieves@consultec-ti.com</h5>      
         </div>
     </section>
     <section>
         <nav id="selectNegro" class="navbar">
-            <li><img src="Imagenes/Icon_house-2.svg" alt="Productos">
+            <li><img style="margin-left: 10px;" src="Imagenes/Icon_house-2.svg" alt="Productos">
             </li>
             <li><select id="textoBarra" ><a > Productos</a>
                     <option value="0">Productos</option></select> </li>
@@ -60,18 +62,21 @@
                 <h1>Saldos y movimientos</h1>
             </section>
             <table>
+                <div class="bordered">
                 <tr>
                   <th>Cuenta corriente</th>
                   <th>Monto autorizado</th>
                   <th>Retenciones</th>
                   <th>Disponible</th>
                 </tr>
-                <tr class="bordered">
+                <tr>
                   <td>N° 1234341323132</td>
                   <td>500</td>
                   <td>50</td>
                   <td>450</td>
                 </tr>
+            </div>
+            <div>
                 <tr>
                   <th>Línea de crédito</th>
                   <th>Monto autorizado</th>
@@ -84,6 +89,7 @@
                   <td>50</td>
                   <td>500</td>
                 </tr>
+            </div>
               </table>
         </div>
         
