@@ -13,23 +13,27 @@ body {
   font-style: normal;
 }
 
-.botonEmergencia {
+#botonEmergencia {
   display: flex;
+  color: white;
   flex-direction: row;
-  color:white;
   padding: 12px;
   gap: 16px;
   align-items: center;
   width: 223.42px;
   height: 44px;
-  border: 8px solid #00ABEB;
+  background-color: #00ABEB;
+  border-radius: 8px ;
 }
+
 
 main {
-width: 50%;
+width: 20vw;
+background-color: green;
+
 }
 
-#botonMisOfertas{
+.botonMisOfertas{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,7 +42,6 @@ width: 50%;
     width: 171px;
     height: 44px;
     background: #00ABEB; 
-    color: #000000;
 
 }
 
@@ -57,7 +60,6 @@ left: 20px;
 top: 118px;
 
   background: #000000;
-  color: white;
 
 }
 
@@ -67,44 +69,41 @@ top: 118px;
   width: 100%;
   margin: auto 0;
   }
+  /*Estilos para la navbar*/
 
-table {
-    border: 1px solid;
-    margin: auto 0;
-}
-
-tr.bordered {
-    border-bottom: 1px solid;
-}
-
-th, td {
-    padding: 10px;
-}
-
-th, td {
-   padding-left: 30px;
-   padding-right: 30px;
-}
-
-#selectNegro{
+:root{
  
-  display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px 20px;
-gap: 165px;
-
-position: absolute;
-width: 1240px;
-height: 44px;
-left: 20px;
-top: 118px;
-
-background: #000000;
+  --colortxtbtn: #fffaff;
+  --navbarbg:#000000;
+  --contentbg: #E5E5E5;
 }
-#textoBarra{
-    color: white;
-    background-color: #000000;
-    border: #000000;
+
+
+li {
+  float: left;
+ 
+}
+
+ul {
+
+  max-width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--navbarbg);
+ 
+}
+
+li a {  
+ 
+  color: var(--colortxtbtn);
+  display: block;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {  
+  background-color: rgb(147, 147, 147);
 }

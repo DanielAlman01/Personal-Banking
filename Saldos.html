@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saldos</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="assets_saldos/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -37,52 +37,42 @@
         </div>
     </section>
     <section>
-        <nav id="selectNegro" class="navbar">
-            
-            <li><select id="textoBarra" ><a > Productos</a>
-                    <option value="0">Productos</option></select> </li>
-                    <li><select id="textoBarra"><a > Productos</a>
-                    <option value="0">Tranferencias</option></select> </li>
-                    <li><select id="textoBarra"><a > Productos</a>
-                    <option value="0">Pagos</option></select> </li>
-                    <li><select id="textoBarra" ><a > Productos</a>
-                    <option value="0">Inversiones</option></select> </li>
-                    <li><select id="botonMisOfertas" ><a > Productos</a>
-                    <option value="0">Mis ofertas</option></select> </li>
-    
+        <nav class="navbar">
+            <select>Productos</select>
+            <a href="#transferencia">Transferencia</a>
+            <a href="#pagos">Pagos</a>
+            <a href="#inversiones">Inversiones</a>
         </nav>
     </section>
-    <main>
-        <section class="saldos_section">
-            <h1>Saldos y movimientos</h1>
-        </section>
-        <table>
-            <tr>
-              <th>Cuenta corriente</th>
-              <th>Monto autorizado</th>
-              <th>Retenciones</th>
-              <th>Disponible</th>
-            </tr>
-            <tr class="bordered">
-              <td>N° 1234341323132</td>
-              <td>500</td>
-              <td>50</td>
-              <td>450</td>
-            </tr>
-            <tr>
-              <th>Línea de crédito</th>
-              <th>Monto autorizado</th>
-              <th>Utilizado</th>
-              <th>Disponible</th>
-            </tr>
-            <tr>
-              <td>N° 1231243432523</td>
-              <td>123</td>
-              <td>50</td>
-              <td>500</td>
-            </tr>
-          </table>
-       </main>
+    <section class="saldos_section">
+        <h1>Saldos y movimientos</h1>
+    </section>
+    <table >
+        <tr>
+          <th>Cuenta corriente</th>
+          <th>Monto autorizado</th>
+          <th>Retenciones</th>
+          <th>Disponible</th>
+        </tr>
+        <tr>
+          <td>N° 1234341323132</td>
+          <td>500</td>
+          <td>50</td>
+          <td>450</td>
+        </tr>
+        <tr>
+          <th>Línea de crédito</th>
+          <th>Monto autorizado</th>
+          <th>Utilizado</th>
+          <th>Disponible</th>
+        </tr>
+        <tr>
+          <td>N° 1231243432523</td>
+          <td>123</td>
+          <td>50</td>
+          <td>500</td>
+        </tr>
+      </table>
     </section>
     </section>
 </body>
