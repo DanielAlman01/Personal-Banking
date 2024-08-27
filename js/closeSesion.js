@@ -8,6 +8,5 @@ menuIcon.addEventListener('click', () => {
 function cerrarSesion() {
     // Aquí iría la lógica real de cierre de sesión
     alert('Sesión cerrada. Redirigiendo al inicio...');
-    console.log("holaaaa")
     window.location.href = 'index.html';
 }
