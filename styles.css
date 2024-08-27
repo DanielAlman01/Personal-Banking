@@ -62,7 +62,14 @@ body{
 
 li {
     float: left;
+    list-style-type: none;
     
+}
+
+.Nanvbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
 }
 
 ul {
@@ -77,14 +84,17 @@ ul {
 }
 
 li a {  
-    font-family: "Poppins", sans-serif;
+    
     color: var(--colortxtbtn);
     display: block;
     text-align: center;
-    padding: 16px 16px;
+    padding: 16px 25px;
     text-decoration: none;
 }
-
+#Ofertas{
+    background-color: #00ABEB;
+    margin-left: 10px;
+}
 li a:hover {  
     background-color: rgb(147, 147, 147);
 }
