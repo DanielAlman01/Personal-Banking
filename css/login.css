@@ -158,3 +158,8 @@ p{
     color: var(--colorSecundario);
 }
 
+/* imagen */
+
+.img-logo{
+    width: 150px;
+}
