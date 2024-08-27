@@ -33,8 +33,7 @@ body {
 main {
 width: 50%;
 }
-
-.botonMisOfertas{
+#botonMisOfertas{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,7 +43,6 @@ width: 50%;
     width: 171px;
     height: 44px;
     background: #00ABEB; 
-    color: #000000;
 
 }
 
@@ -58,9 +56,9 @@ width: 50%;
 
   position: absolute;
   width: 1240px;
-  height: 44px;
-  left: 20px;
-  top: 118px;
+height: 44px;
+left: 20px;
+top: 118px;
 
   background: #000000;
   color: white;
