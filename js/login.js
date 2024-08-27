@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('passwordLogin').value;
 
     if (email === storedUser && password === storedPassword) {
-        window.location.href = '../registro.html';
+        window.location.href = '../Productos.html';
     } else {
         alert('El usuario o la contraseña es incorrecta');
     }
