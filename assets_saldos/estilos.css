@@ -81,7 +81,7 @@ top: 118px;
 
 li {
   float: left;
- 
+  list-style-type: none;
 }
 
 ul {
@@ -97,7 +97,6 @@ ul {
 
 li a {  
  
-  color: var(--colortxtbtn);
   display: block;
   text-align: center;
   padding: 16px 16px;
