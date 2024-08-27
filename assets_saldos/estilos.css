@@ -12,5 +12,15 @@ body {
     font-weight: 700;
     font-style: normal;
   }
-  
-  
+
+
+  .botonEmergencia {
+    display: flex;
+    padding: 12px;
+    gap: 16px;
+    align-items: center;
+    width: 223.42px;
+    height: 44px;
+    border: 8px solid #00ABEB;
+}
+
