@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <title>Saldos</title>
+    <link rel="stylesheet" href="assets_saldos/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Productos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header style="display: flex; flex-direction: row; justify-content: space-between;">
-        <div style="margin: 0 1rem;">
-            <h3 style="font-weight: 400;">Hola, <span style="font-weight: 800;">Nelson Alejandro</span></h3>
+    <section class="diseno-header">
+        <div>
+            <img src="Imagenes/ConsultecLogo.png" alt="Logo de Consultec">
         </div>
-        <div style="margin: 0 1rem;">
-            <h3 style="font-weight: 400;">Ejecutivo: José Francisco Nieves - jnieves@consultec-ti.com</h3>
+        <div>
+            <nav class="navbar">
+                <li><a> Mi perfil</a></li>
+                <li><a> Contactanos </a></li>
+                <li><select id="botonEmergencia"><a > Emergencias</a>
+                    <option value="0"> <img src="Imagenes/Emergency.svg" alt="Logo de Consultec">Emergencias </option></select> </li>
+                <li><a > Cerrar Sesión</a></li>
+            </nav>
         </div>
-    </header>
-    <nav class="Nanvbar">
-        <ul>
-            <li><a href="#">IMG</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Transferencias</a></li>
-            <li><a href="#">Pagos</a></li>
-            <li><a href="#">Inversiones</a></li>
-            <li><a href="#">Inversiones</a></li>
-        </ul>
-        
-        <ul>
-        <li id="Ofertas"><a href="#">Mis ofertas</a></li>    
-        </ul>
-    </nav>
+    </section>
+    <section class="nombres">
+        <div>
+            <h3>Hola, Nelson Alejandro</h3>
+        </div>
+        <div>
+            <h3>Ejecutivo: José Francisco Nieves - jnieves@consultec-ti.com</h3>      
+        </div>
+    </section>
+    <section>
+        <nav id="selectNegro" class="navbar">
+            <li><img src="Imagenes/Icon_house-2.svg" alt="Productos">
+            </li>
+            <li><select id="textoBarra" ><a > Productos</a>
+                    <option value="0">Productos</option></select> </li>
+                    <li><select id="textoBarra"><a > Productos</a>
+                    <option value="0">Tranferencias</option></select> </li>
+                    <li><select id="textoBarra"><a > Productos</a>
+                    <option value="0">Pagos</option></select> </li>
+                    <li><select id="textoBarra" ><a > Productos</a>
+                    <option value="0">Inversiones</option></select> </li>
+                    <li><select id="botonMisOfertas" ><a > Productos</a>
+                    <option value="0">Mis ofertas</option></select> </li>
+    
+        </nav>
+    </section>
+    
     <main class="main">
         <section class="products-dashboard">
             <section class="product-container">
@@ -47,5 +69,9 @@
             </section>
         </section>
     </main>
+    
+    </section>
+    </section>
 </body>
+
 </html>
