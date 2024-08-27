@@ -168,7 +168,7 @@ table {
 }
 
 .bordered {
-  border-bottom: 1px solid;
+  border: 2px solid;
 }
 
 th,
