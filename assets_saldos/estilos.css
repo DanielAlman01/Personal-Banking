@@ -29,6 +29,18 @@ main {
 width: 20vw;
 background-color: green;
 }
+.botonMisOfertas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 16px;
+    margin: 0 auto;
+    width: 171px;
+    height: 44px;
+    background: #00ABEB; 
+
+}
 
 .saldos_section{
 display: flex;
