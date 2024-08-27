@@ -128,3 +128,21 @@ background: #000000;
     background-color: #000000;
     border: #000000;
 }
+
+table {
+  border: 1px solid;
+  margin: auto 0;
+}
+
+tr.bordered {
+  border-bottom: 1px solid;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th, td {
+ padding-left: 30px;
+ padding-right: 30px;
+}
