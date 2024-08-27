@@ -12,34 +12,21 @@ body {
     font-weight: 700;
     font-style: normal;
   }
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  main {
+  .botonEmergencia {
     display: flex;
-    width: 20vw;
-    background-color: green;
-  }
-  
+    flex-direction: row;
+    color:white;
+    padding: 12px;
+    gap: 16px;
+    align-items: center;
+    width: 223.42px;
+    height: 44px;
+    border: 8px solid #00ABEB;
+}
+
+main {
+  display: flex;
+  width: 20vw;
+  background-color: green;
+}
