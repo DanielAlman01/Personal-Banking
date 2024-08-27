@@ -1,32 +1,38 @@
 
   
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
 
-  .botonEmergencia {
-    display: flex;
-    flex-direction: row;
-    color:white;
-    padding: 12px;
-    gap: 16px;
-    align-items: center;
-    width: 223.42px;
-    height: 44px;
-    border: 8px solid #00ABEB;
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.botonEmergencia {
+  display: flex;
+  flex-direction: row;
+  color:white;
+  padding: 12px;
+  gap: 16px;
+  align-items: center;
+  width: 223.42px;
+  height: 44px;
+  border: 8px solid #00ABEB;
 }
 
 main {
-  display: flex;
-  width: 20vw;
-  background-color: green;
+width: 20vw;
+background-color: green;
+}
+
+.saldos_section{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin: auto 0;
 }
