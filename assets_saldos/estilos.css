@@ -1,4 +1,9 @@
-
+:root{
+    
+  --colortxtbtn: #fffaff;
+  --navbarbg:#000000;
+  --contentbg: #E5E5E5;
+}
   
 body {
   font-family: "Poppins", sans-serif;
@@ -69,3 +74,32 @@ background-color: green;
   width: 100%;
   margin: auto 0;
   }
+  
+li {
+  float: left;
+  
+}
+
+ul {
+
+  max-width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--navbarbg);
+  
+}
+
+li a {  
+  
+  color: var(--colortxtbtn);
+  display: block;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {  
+  background-color: rgb(147, 147, 147);
+}
