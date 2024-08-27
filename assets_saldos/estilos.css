@@ -54,6 +54,7 @@ main {
 #botonMisOfertas {
   background-color: #00ABEB;
   padding: 11px;
+  margin-right: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -88,6 +89,12 @@ main {
   --contentbg: #E5E5E5;
 }
 
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 li {
   float: left;
@@ -105,10 +112,11 @@ ul {
 
 }
 
-li a {
-
-  display: block;
+.cerrar {
+  display: flex;
   text-align: center;
+  background: none;
+  border: none;
   padding: 8px 12px;
   margin: 1px;
   text-decoration: none;
@@ -121,6 +129,7 @@ li a:hover {
 
 #selectNegro {
   display: flex;
+  
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -178,4 +187,8 @@ td {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+h5{
+  font-weight: 600;
 }
