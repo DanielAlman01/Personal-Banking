@@ -31,7 +31,10 @@ body {
 }
 
 main {
-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 #botonMisOfertas{
     display: flex;
@@ -66,11 +69,8 @@ top: 118px;
 }
 
 .saldos_section{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: auto 0;
-  }
+  width: 50%;
+}
   
 li {
   float: left;
@@ -129,8 +129,8 @@ table {
   margin: auto 0;
 }
 
-tr.bordered {
-  border-bottom: 1px solid;
+.bordered {
+  border-bottom: 2px solid;
 }
 
 th, td {
