@@ -58,6 +58,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 
 /*Estilos para la navbar*/
