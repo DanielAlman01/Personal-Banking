@@ -4,7 +4,6 @@ body {
   font-style: normal;
 }
  
- 
 .poppins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -26,6 +25,7 @@ body {
   border-radius: 8px;
   text-align: center;
 }
+
 #botonNoEmergencia {
   display: flex;
   color: black;
@@ -154,9 +154,6 @@ li a:hover {
   border: #000000;
 }
  
- 
- 
- 
 #textoBarra {
   color: white;
   background-color: #000000;
@@ -247,11 +244,12 @@ h5{
   background-color:#cdcdcd;
   padding: 11px;
   border: #000000;
+  border-radius: 8px;
 }
+
 #botonNoEmergencia:hover{
   color: white;
   background-color:#cdcdcd;
   padding: 11px;
   border: #000000;
- 
 }
