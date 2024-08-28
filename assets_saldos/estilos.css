@@ -168,6 +168,8 @@ table {
 }
  
 .bordered {
+
+  border: 2px solid;
   border: 1px solid;
 }
  
@@ -238,4 +240,18 @@ h5{
   font-style: normal;
   font-size: 14px;
   margin-top:10px;
+}
+
+.cerrar:hover{
+  color: white;
+  background-color:#cdcdcd;
+  padding: 11px;
+  border: #000000;
+}
+#botonNoEmergencia:hover{
+  color: white;
+  background-color:#cdcdcd;
+  padding: 11px;
+  border: #000000;
+ 
 }
