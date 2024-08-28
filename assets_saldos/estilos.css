@@ -117,7 +117,6 @@ ul {
   text-align: center;
   background: none;
   border: none;
-  border-radius: 8px;
   padding: 8px 12px;
   margin: 1px;
   text-decoration: none;
@@ -154,7 +153,6 @@ li a:hover {
   padding: 11px;
   border: #000000;
 }
-
  
  
  
@@ -247,11 +245,13 @@ h5{
 .cerrar:hover{
   color: white;
   background-color:#cdcdcd;
+  padding: 11px;
   border: #000000;
 }
 #botonNoEmergencia:hover{
   color: white;
   background-color:#cdcdcd;
+  padding: 11px;
   border: #000000;
  
 }
