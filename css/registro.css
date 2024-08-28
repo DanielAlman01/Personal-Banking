@@ -78,12 +78,21 @@ html {
 
     height: 3rem;
     margin: .5rem 0;
+    padding-left: 16px;
+    font-weight: 500;
 
 }
 
 .inputRegistro::placeholder{
     color: var(--oscuro);
 }
+
+
+.logotipofoto{ 
+    margin-top: 20%;
+    margin-left: -25%;
+    display: inline-block;
+    width: 80%;}
 
 .btnCrearCuenta{
     width: 10rem;
